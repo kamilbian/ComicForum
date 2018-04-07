@@ -1,2 +1,2 @@
 # ComicForum
-A APP of ACG forum 
+An APP of ACG forum 
