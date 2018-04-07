@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleSize">20sp</dimen>
+    <dimen name="toolbarH">50dp</dimen>
+    <dimen name="viewFlipperH">200dp</dimen>
+    <dimen name="grid_column_width">120dp</dimen>
+    <dimen name="grid_image_height">180dp</dimen>
+    <dimen name="grid_tv_size">15sp</dimen>
+    <dimen name="grid_item_padding">5dp</dimen>
+</resources>

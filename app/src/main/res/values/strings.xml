@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">动漫论坛</string>
+    <string name="theFirst">这是第一页</string>
+    <string name="theSecond">这是第二页</string>
+    <string name="theThird">这是第三页</string>
+    <string name="button_back">返回</string>
+</resources>

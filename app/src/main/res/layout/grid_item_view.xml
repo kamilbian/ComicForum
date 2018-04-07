@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="@dimen/grid_item_padding">
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/grid_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/grid_image_height" />
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/grid_text"
+        android:textSize="@dimen/grid_tv_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/grid_column_width"
+        android:singleLine="true"/>
+</LinearLayout>
