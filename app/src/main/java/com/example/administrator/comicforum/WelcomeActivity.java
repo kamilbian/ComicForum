@@ -16,9 +16,9 @@ import android.widget.ImageView;
  */
 
 public class WelcomeActivity extends Activity {
-    private ImageView imageWelcome;
-    public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
-        super.onCreate(savedInstanceState, persistentState);
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
         handler.sendEmptyMessageDelayed(0,3000);
     }
