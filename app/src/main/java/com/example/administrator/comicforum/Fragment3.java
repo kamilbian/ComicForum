@@ -3,9 +3,6 @@ package com.example.administrator.comicforum;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
-/**
- * Created by Administrator on 2018/3/29.
- */
 
 public class Fragment3 extends BaseFragment {
     @Override
@@ -24,4 +21,47 @@ public class Fragment3 extends BaseFragment {
         iv3.setImageResource(R.drawable.f3_3);
         super.initViewFlipper();
     }
+    //直接插入排序
+    public void insert1(int a[]){
+        int i,j,temp;
+        for(i=1;i<a.length;i++){
+            temp=a[i];
+            for(j=i-1;j>=0&&a[j]>temp;j--){
+                a[j+1]=a[j];
+            }
+            a[j+1]=temp;
+        }
+    }
+    //冒泡排序
+    public void insert2(int a[]){
+        int i,j,temp;
+        boolean flag=true;
+        for(i=0;i<a.length-1&&flag;i++){
+            flag=false;
+            for(j=a.length-1;j>i;j--){
+                if(a[j]<a[j-1]){
+                    temp=a[j];
+                    a[j]=a[j-1];
+                    a[j-1]=temp;
+                    flag=true;
+                }
+            }
+        }
+    }
+    //简单选择排序
+    public void insert3(int a[]){
+        int i,j,min;
+        for(i=0;i<a.length;i++){
+            min=a[i];
+            for(j=i+1;j<a.length;j++){
+                if(a[j]<min){
+                    min=a[j];
+                }
+            }
+            if(a[i]!=min){
+                a[i]=min;
+            }
+        }
+    }
+
 }

@@ -2,5 +2,4 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/icon1" android:state_selected="false"/>
     <item android:drawable="@drawable/icon1_selected" android:state_selected="true"/>
-
 </selector>

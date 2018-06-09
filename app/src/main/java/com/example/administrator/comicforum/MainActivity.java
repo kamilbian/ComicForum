@@ -13,9 +13,9 @@ import android.widget.TextView;
 public class MainActivity extends FragmentActivity {
     private FragmentTabHost mTabHost;//定义一个FragmentTabHost
     private LayoutInflater layoutInflater;//定义一个布局
-    private Class fragmentArray[]={Fragment1.class,Fragment2.class,Fragment3.class};//定义碎片数组
-    private int tabImage[]={R.drawable.icon_first,R.drawable.icon_second,R.drawable.icon_third,};//定义一个标签图片数组
-    private String tabText[]={"动画","小说","游戏"};//定义标签文本数组
+    private Class fragmentArray[]={Fragment1.class,Fragment2.class,Fragment3.class,FragmentLogin.class};//定义碎片数组
+    private int tabImage[]={R.drawable.icon_first,R.drawable.icon_second,R.drawable.icon_third,R.drawable.icon_fourth};//定义一个标签图片数组
+    private String tabText[]={"动画","小说","游戏","个人"};//定义标签文本数组
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
