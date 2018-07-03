@@ -8,7 +8,6 @@
     tools:context="com.example.administrator.comicforum.MainActivity">
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/mToolbar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/toolbarH"
         android:background="@color/mTbrColor">
